@@ -1,0 +1,17 @@
+{
+	"name": "hz-mooc",
+	"version": "1.0.0",
+	"description": "风袖电商小程序",
+	"main": "app.js",
+	"dependencies": {
+		"lin-ui": "~0.6.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"author": "smoothwater",
+	"license": "ISC"
+}
