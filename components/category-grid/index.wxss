@@ -1,0 +1,31 @@
+@import "../../wxss/sleeve.wxss";
+.container{
+    width: 100%;
+    height: 320rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.inner-container{
+    width: 730rpx;
+    height: 300rpx;
+    border: 1px dashed #DCEBE6;
+}
+
+.grid-item{
+    width: 200rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-img{
+    width: 60rpx;
+    height: 60rpx;
+}
+.grid-text{
+    font-size: 24rpx;
+}

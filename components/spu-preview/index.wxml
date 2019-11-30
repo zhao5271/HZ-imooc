@@ -1,0 +1,26 @@
+<wxs src="../../wxs/price.wxs" module="p"></wxs>
+
+<view data-pid="{{data.id}}"
+      bind:tap="onItemTap"
+      class="container">
+    <image class="img" mode="widthFix"
+           bind:load="onImgLoad"
+           src="{{data.img}}"></image>
+    <view class="content-container">
+        <text class="title">{{data.title}}</text>
+        <view class="tags">
+            <block wx:for="{{tags}}" wx:key="{{index}}">
+                <l-tag l-class="l-tag" type="reading"
+                       size="super-mini">{{item}}</l-tag>
+            </block>
+        </view>
+        <view class="price-row">
+            <l-price color="#157658" value-size="28" unit-size="20"
+                     value="{{p.mainPrice(data.price,data.discount_price).price}}"></l-price>
+            <l-price color="#999999" size="24" l-class="discount-price"
+                     wx:if="{{p.slashedPrice(data.price,data.discount_price).display}}"
+                     deleted value="{{p.slashedPrice(data.price,data.discount_price).price}}"></l-price>
+        </view>
+        <text class="subtitle">{{data.subtitle}}</text>
+    </view>
+</view>

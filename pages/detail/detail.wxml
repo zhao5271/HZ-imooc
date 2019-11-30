@@ -1,0 +1,7 @@
+<view class="container">
+    <view>
+        <image></image>
+    </view>
+    <s-realm spu="{{spu}}"></s-realm>
+<!--    栅栏-->
+</view>

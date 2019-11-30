@@ -1,0 +1,35 @@
+<l-loadmore show end-text="没有下一页了"
+            type="{{loadingType}}">
+    <view slot="content" class="container">
+        <!--折扣优惠主题-->
+        <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+        <!--轮播图-->
+        <swiper class="swiper l-class"
+                indicator-dots
+                indicator-active-color="#157658"
+                autoplay circular>
+            <block wx:for="{{bannerB.items}}" wx:key="{{index}}">
+                <swiper-item>
+                    <image class="swiper" src="{{item.img}}"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+        <!--六宫格：产品分类-->
+        <s-category-grid grid="{{grid}}"></s-category-grid>
+        <!--优惠活动主题-->
+        <image class="activity" src="{{activityD.entrance_img}}"></image>
+        <!--每周上新-->
+        <s-spu-scroll l-class="spu-scroll" wx:if="{{themeE.online}}" theme="{{themeE}}" spu-list="{{themeESpu}}"
+        ></s-spu-scroll>
+        <!--热卖榜单-->
+        <image class="quality" src="{{themeF.entrance_img}}"></image>
+        <s-hot-list banner="{{bannerG}}"></s-hot-list>
+        <!--出街穿搭主题-->
+        <image class="fashion" src="{{themeH.entrance_img}}"></image>
+        <!--推荐商品-->
+        <view class="spu-bottom">
+            <image class="spu-bottom-title" src="/imgs/home/recommend.png"></image>
+            <l-water-flow generic:l-water-flow-item="s-spu-preview"></l-water-flow>
+        </view>
+    </view>
+</l-loadmore>
