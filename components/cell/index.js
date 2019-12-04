@@ -4,7 +4,9 @@ Component({
      * 组件的属性列表
      */
     properties: {
-        cell: Object
+        cell: Object,
+        x: Number,
+        y: Number
     },
 
     /**
@@ -20,7 +22,9 @@ Component({
             // 抛出事件，方便父子组件间的传值
             // 利用冒泡机制，可以直接将cell组件中的数据越过fence组件，直接传到Realm组件中去
             this.triggerEvent('celltap',{
-               cell: this.properties.cell
+               cell: this.properties.cell,
+                x: this.properties.x,
+                y: this.properties.y
             },{
                 // bubbles开启冒泡，composed开启组件边界，这样就可以越级传递数据
                 bubbles:true,

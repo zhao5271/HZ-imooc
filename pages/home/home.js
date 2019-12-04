@@ -91,6 +91,7 @@ Page({
         if (!data) {
             return
         }
+        console.log(data)
         wx.lin.renderWaterFlow(data.items)
         // 改变loadmore状态
         if (!data.moreData) {

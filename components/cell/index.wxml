@@ -6,14 +6,13 @@
 
 <wxs module="c">
     function statusStyle(status) {
-        status = "select";
         if (status === 'forbidden') {
             return {
                 outer:'forbidden',
                 inner:''
             }
         }
-        if (status === 'select') {
+        if (status === 'selected') {
             return {
                 outer: 's-outer',
                 inner: 's-inner'

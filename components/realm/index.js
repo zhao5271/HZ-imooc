@@ -36,10 +36,15 @@ Component({
             })
         },
         onCellTap(event) {
+            // cell中包含属性值，status；x表示行号，y表示列号
+            // 因为此处获取到的cell对象是经过小程序渲染包装过的，和原来的cell引用对象是不同的
+            // 所以需要获取cell的行列号，重新进入Fences下的cell中改变它的status
             const cell = event.detail.cell
+            const x = event.detail.x
+            const y = event.detail.y
             const judger = this.data.judger
             // 每次点击规格，都会触发judger中的judge方法，对规格进行判断
-            judger.judge(cell)
+            judger.judge(cell,x,y)
             this.setData({
                 fences: judger.fenceGroup.fences
             })
@@ -53,8 +58,9 @@ Component({
 * 本质：确定禁用状态
 * 规律：每当用户进行一次规格值的选择，所有的规格值都需要重新去确认状态
 *
-* 1. 待确定的SKU路径（关键）
+* 1. 待确定的SKU路径（关键） == 潜在路径
 * 2. 已存在的SKU路径
 *
-* 字典（）
+* 字典（）中存放所有存在的规格路径
+* 单个属性/两个属性/三个属性
 * */

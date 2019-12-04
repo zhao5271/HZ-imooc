@@ -18,16 +18,25 @@ class Judger {
         });
     }
     // 判断cell的状态
-    judge(cell) {
-        Judger._changeCellStatus(cell)
+    judge(cell,x,y) {
+        this._changeCurrentCellStatus(cell,x,y)
+        // 回调函数直接传方法名即可，不需要传参
+        this.fenceGroup.eachCell(this._changeOtherCellStatus)
     }
+
+    _changeOtherCellStatus(cell, x, y) {
+
+    }
+
     // 正反选改变cell状态
-    static _changeCellStatus(cell) {
+    _changeCurrentCellStatus(cell, x, y) {
         if (cell.status === CellStatus.WAITING) {
-            cell.status = CellStatus.SELECTED
+            // cell.status = CellStatus.SELECTED
+            this.fenceGroup.fences[x].cells[y].status = CellStatus.SELECTED
         }
         if (cell.status === CellStatus.SELECTED) {
-            cell.status = CellStatus.WAITING
+            // cell.status = CellStatus.WAITING
+            this.fenceGroup.fences[x].cells[y].status = CellStatus.WAITING
         }
     }
 

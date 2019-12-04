@@ -1,475 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de05056a-8c16-4e84-adda-5e0f5f135093" name="Default Changelist" comment="定期更新">
-      <change afterPath="$PROJECT_DIR$/.idea/HZ-mooc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/home/recommend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/action-sheet/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/action-sheet/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/action-sheet/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/action-sheet/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/avatar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/avatar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/avatar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/avatar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/badge/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/badge/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/badge/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/badge/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/behaviors/computeOffset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/behaviors/countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/behaviors/hover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/behaviors/rules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/behaviors/scrollCenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/behaviors/watchShow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/behaviors/zIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/button/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/button/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/button/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/card/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/card/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/card/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/card/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox-group/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox-group/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox-group/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox-group/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/checkbox/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/combined-tabs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/combined-tabs/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/combined-tabs/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/combined-tabs/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/rule/enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/rule/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/rule/pattern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/rule/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/rule/required.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/rule/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/rule/whitespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/boolean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/float.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/integer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/method.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/pattern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/regexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/required.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/common/async-validator/validator/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/count-selector/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/count-selector/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/count-selector/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/count-selector/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/countdown/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/countdown/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/countdown/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/countdown/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/counter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/counter/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/counter/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/counter/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/custom-tab-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/custom-tab-bar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/custom-tab-bar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/custom-tab-bar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/dialog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/dialog/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/dialog/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/dialog/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/error-tip/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/error-tip/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/error-tip/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/error-tip/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/filter/array.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/filter/classnames.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/filter/is.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/filter/object.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/filter/string.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/filter/zero-padding.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid-item/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid-item/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid-item/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/icon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/icon/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/icon/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/icon/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/image-picker/image/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/image-picker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/image-picker/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/image-picker/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/image-picker/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/input/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/input/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/input/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/list/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/list/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/list/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loading/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loading/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loading/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loading/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loadmore/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loadmore/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loadmore/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/loadmore/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/mask/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/mask/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/mask/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/mask/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/message/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/message/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/message/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/message/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/notice-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/notice-bar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/notice-bar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/notice-bar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/popup/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/popup/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/popup/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/popup/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/price/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/price/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/price/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/price/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio-group/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio-group/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio-group/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio-group/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/radio/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/rate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/rate/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/rate/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/rate/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/search-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/search-bar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/search-bar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/search-bar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment-item/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment-item/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment-item/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/segment/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/slide-view/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/slide-view/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/slide-view/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/slide-view/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/spin/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/spin/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/spin/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/spin/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/network.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/image/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/status-show/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/step/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/step/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/step/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/step/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/steps/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/steps/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/steps/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/steps/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabpanel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabpanel/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabpanel/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabpanel/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabs/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabs/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tabs/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tag/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tag/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tag/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/tag/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/textarea/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/textarea/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/textarea/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/textarea/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/toast/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/toast/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/toast/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/toast/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/utils/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/water-flow/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/water-flow/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/water-flow/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/water-flow/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/action-sheet/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/action-sheet/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/action-sheet/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/action-sheet/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/avatar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/avatar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/avatar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/avatar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/badge/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/badge/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/badge/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/badge/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/behaviors/computeOffset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/behaviors/countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/behaviors/hover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/behaviors/rules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/behaviors/scrollCenter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/behaviors/watchShow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/behaviors/zIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/button/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/button/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/button/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/card/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/card/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/card/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/card/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox-group/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox-group/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox-group/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox-group/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/checkbox/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/combined-tabs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/combined-tabs/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/combined-tabs/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/combined-tabs/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/rule/enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/rule/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/rule/pattern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/rule/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/rule/required.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/rule/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/rule/whitespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/boolean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/float.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/integer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/method.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/pattern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/regexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/required.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/common/async-validator/validator/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/count-selector/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/count-selector/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/count-selector/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/count-selector/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/countdown/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/countdown/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/countdown/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/countdown/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/counter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/counter/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/counter/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/counter/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/custom-tab-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/custom-tab-bar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/custom-tab-bar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/custom-tab-bar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/dialog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/dialog/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/dialog/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/dialog/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/error-tip/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/error-tip/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/error-tip/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/error-tip/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/filter/array.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/filter/classnames.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/filter/is.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/filter/object.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/filter/string.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/filter/zero-padding.wxs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid-item/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid-item/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid-item/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/grid/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/icon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/icon/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/icon/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/icon/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/image-picker/image/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/image-picker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/image-picker/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/image-picker/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/image-picker/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/input/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/input/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/input/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/list/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/list/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/list/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loading/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loading/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loading/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loading/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loadmore/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loadmore/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loadmore/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/loadmore/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/mask/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/mask/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/mask/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/mask/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/message/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/message/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/message/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/message/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/notice-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/notice-bar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/notice-bar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/notice-bar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/popup/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/popup/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/popup/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/popup/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/price/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/price/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/price/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/price/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio-group/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio-group/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio-group/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio-group/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/radio/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/rate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/rate/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/rate/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/rate/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/search-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/search-bar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/search-bar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/search-bar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment-item/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment-item/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment-item/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/segment/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/slide-view/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/slide-view/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/slide-view/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/slide-view/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/spin/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/spin/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/spin/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/spin/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/network.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/image/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/status-show/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/step/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/step/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/step/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/step/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/steps/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/steps/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/steps/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/steps/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabpanel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabpanel/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabpanel/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabpanel/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabs/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabs/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tabs/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tag/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tag/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tag/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/tag/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/textarea/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/textarea/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/textarea/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/textarea/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/toast/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/toast/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/toast/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/toast/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/utils/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/water-flow/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/water-flow/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/water-flow/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/dist/water-flow/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/lin-ui/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitemap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
+    <list default="true" id="de05056a-8c16-4e84-adda-5e0f5f135093" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cell/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/cell/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cell/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/cell/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/models/judger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/judger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/models/spu-code.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/spu-code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -482,17 +27,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/home/home.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/spu-scroll/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/home/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/spu-preview/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="368">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <element signature="n#view#0;n#view#0;n#view#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/spu-preview/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/home/home.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/spu-preview/index.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -501,12 +106,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/components/spu-preview/index.wxml" />
+        <option value="$PROJECT_DIR$/components/fence/index.wxml" />
+        <option value="$PROJECT_DIR$/components/realm/index.wxml" />
+        <option value="$PROJECT_DIR$/components/cell/index.js" />
+        <option value="$PROJECT_DIR$/components/fence/index.js" />
+        <option value="$PROJECT_DIR$/components/models/spu-code.js" />
+        <option value="$PROJECT_DIR$/components/cell/index.wxml" />
+        <option value="$PROJECT_DIR$/components/realm/index.js" />
+        <option value="$PROJECT_DIR$/components/models/fence-group.js" />
+        <option value="$PROJECT_DIR$/components/models/judger.js" />
+        <option value="$PROJECT_DIR$/components/category-grid/index.json" />
+        <option value="$PROJECT_DIR$/pages/home/home.js" />
+        <option value="$PROJECT_DIR$/components/spu-preview/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1142" />
+    <option name="width" value="961" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -514,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -524,19 +142,52 @@
             <path>
               <item name="HZ-mooc" type="b2602c69:ProjectViewProjectNode" />
               <item name="HZ-mooc" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HZ-mooc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HZ-mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="spu-preview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HZ-mooc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HZ-mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="spu-scroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HZ-mooc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HZ-mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HZ-mooc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HZ-mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HZ-mooc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HZ-mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="wxs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HZ-mooc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HZ-mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="wxss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1127" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -562,7 +213,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575087945506</updated>
-      <workItem from="1575087948420" duration="853000" />
+      <workItem from="1575087948420" duration="7664000" />
+      <workItem from="1575115704304" duration="971000" />
+      <workItem from="1575250615481" duration="764000" />
+      <workItem from="1575272307724" duration="12174000" />
     </task>
     <task id="LOCAL-00001" summary="定期更新">
       <created>1575088367621</created>
@@ -571,25 +225,27 @@
       <option name="project" value="LOCAL" />
       <updated>1575088367621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="定期更新">
+      <created>1575088877984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575088877984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="853000" />
+    <option name="totallyTimeSpent" value="21573000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1142" height="1057" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24955595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27453026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32931727" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -597,6 +253,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32931727" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -610,10 +271,208 @@
     <option name="LAST_COMMIT_MESSAGE" value="定期更新" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/enum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/models/matrix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/fence/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/realm/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/cell/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/fence/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/models/cell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/models/fence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/realm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/models/fence-group.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/models/judger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/models/spu-code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/cell/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/cell/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/category-grid/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/category-grid/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxss/sleeve.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/category-grid/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/category-grid/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/spu-scroll/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/home.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/home.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/spu-scroll/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/spu-preview/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="368">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="n#view#0;n#view#0;n#view#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/spu-preview/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/spu-preview/index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>

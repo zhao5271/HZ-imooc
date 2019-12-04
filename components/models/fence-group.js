@@ -26,6 +26,15 @@ class FenceGroup {
         this.fences = fences
     }
 
+    eachCell(cb) {
+        for (let i = 0; i < this.fences.length; i++) {
+            for (let j = 0; j <this.fences[i].cells.length ; j++) {
+                const cell = this.fences[i].cells[j]
+                cb(cell,i,j)
+            }
+        }
+    }
+
 
     // 将skuList中的商品属性值遍历存入数组中，
     // 然后在Matrix类中对这个二维数组进行双重遍历

@@ -9,7 +9,6 @@ class SpuCode {
     constructor(code) {
         this.code = code
         this._splitToSegment()
-        console.log(this.totalSegments)
     }
 
     _splitToSegment() {
