@@ -7,7 +7,7 @@ function mainPrice(price, discount) {
         }
     } else {
         return {
-            price:price,
+            price:discount,
             display:true
         }
     }

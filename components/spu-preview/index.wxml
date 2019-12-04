@@ -1,3 +1,5 @@
+<!--引入外部的wxs文件-->
+<wxs src="../../wxs/price.wxs" module="p"></wxs>
 
 <view data-pid="{{data.id}}"
       bind:tap="onItemTap"
