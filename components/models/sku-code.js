@@ -1,6 +1,7 @@
 import {combination} from "../../miniprogram_npm/lin-ui/utils/util";
-
-class SpuCode {
+// 这个类的主要作用是分解出每个规格名和规格值所对应的id
+// 以及将所有的sku路径都进行排列组合,存储到字典中
+class SkuCode {
     code
     spuId
     // 存放所有组合过的规格值
@@ -30,8 +31,6 @@ class SpuCode {
     }
 }
 
-// 这个类的主要作用是分解出每个规格名和规格值所对应的id
-// 以及将所有的sku路径都进行排列组合,存储到字典中
 export {
-    SpuCode
+    SkuCode
 }
