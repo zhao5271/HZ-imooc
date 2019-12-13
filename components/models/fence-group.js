@@ -25,7 +25,7 @@ class FenceGroup {
         });
         this.fences = fences
     }
-
+    // 遍历每一个cell属性，然后将每一个cell和行号列号通过回调函数返回
     eachCell(cb) {
         for (let i = 0; i < this.fences.length; i++) {
             for (let j = 0; j <this.fences[i].cells.length ; j++) {
@@ -33,6 +33,13 @@ class FenceGroup {
                 cb(cell,i,j)
             }
         }
+    }
+    // 将传递的 skucode 与 sku_list 下面的 code进行对比
+    // 完整的 skuCode 包括 spu的id
+    getSku (skuCode) {
+        const fullSkuCode = this.spu.id + '$' + skuCode
+        const sku = this.spu.sku_list.find(s => s.code === fullSkuCode)
+        return sku ? sku : null
     }
 
 
@@ -45,6 +52,29 @@ class FenceGroup {
         })
         // 当我们返回数据中既要有属性值，又需要方法时，推荐返回类
         return new Matrix(m)
+    }
+
+    // 将商品的默认sku属性配置从sku_list中读取出来，默认sku就是sku_list下的一个对象
+    getDefaultSku () {
+        const defaultSkuId = this.spu.default_sku_id
+        if (!defaultSkuId) {
+            return
+        }
+        return this.skuList.find(s => s.id === defaultSkuId)
+    }
+
+    // 通过cell所在的行列号改变status
+    setCellStatusByXY (x, y, status) {
+        this.fences[x].cells[y].status = status
+    }
+
+    // 通过cell对应的id改变status
+    setCellStatusByID (cellId,status) {
+        this.eachCell(cell => {
+            if (cell.id === cellId) {
+                cell.status = status
+            }
+        })
     }
 }
 

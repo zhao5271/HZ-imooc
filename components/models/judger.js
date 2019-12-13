@@ -1,23 +1,44 @@
 import { SkuCode } from './sku-code'
 import { CellStatus } from '../../core/enum'
 import { SkuPending } from './sku-pending'
-import { Cell } from './cell'
 import { Joiner } from '../../utils/joiner'
 
 class Judger {
   fenceGroup
-  pathDict = []
   skuPending
+  pathDict = []
 
   constructor (fenceGroup) {
     this.fenceGroup = fenceGroup
-    this._initSkuPending()
+    // 初始化 路径字典需要在初始化cell规则之前
     this._initPathDict()
+    this._initSkuPending()
+  }
+
+  isSkuIntact () {
+    return this.skuPending.isSkuIntact()
   }
 
   // 初始实例化skuPending对象
   _initSkuPending () {
-    this.skuPending = new SkuPending()
+    const specsLength = this.fenceGroup.fences.length
+    this.skuPending = new SkuPending(specsLength)
+    const defaultSku = this.fenceGroup.getDefaultSku()
+    if (!defaultSku) {
+      return
+    }
+    // 利用SkuPending类下的init方法将 默认 sku 拆解存储到skuPending中
+    this.skuPending.init(defaultSku)
+    this._initDefaultCell()
+    this.judge(null,null,null,true)
+  }
+
+    // sku的默认规格渲染
+  _initDefaultCell () {
+    // skuPending 中的pending数组 存储的就是 已选中的cell
+    this.skuPending.pending.forEach(cell => {
+      this.fenceGroup.setCellStatusByID(cell.id,CellStatus.SELECTED)
+    })
   }
 
   // 拆解spec中规格的code码
@@ -28,22 +49,34 @@ class Judger {
     })
   }
 
-  // 判断cell的状态
-  judge (cell, x, y) {
-    this._changeCurrentCellStatus(cell, x, y)
+  // 判断，修改cell的状态,
+  //  isInit 表示是否在初始化的时候调用changeCurrentCellStatus方法
+  judge (cell, x, y, isInit=false) {
+    if (!isInit) {
+      this._changeCurrentCellStatus(cell, x, y)
+    }
+    // 遍历fenceGroup返回的单个cell属性
     this.fenceGroup.eachCell((cell, x, y) => {
       const path = this._findPotentialPath(cell, x, y)
       // 如果path为空，该cell以被选中不需要再判断它的status
       if (!path) {
         return
       }
+      // 判断cell路径是否在路径字典中，在为可选状态，不在则禁用状态
       const isIn = this._isInDict(path)
       if (isIn) {
-        this.fenceGroup.fences[x].cells[y].status = CellStatus.WAITING
+        this.fenceGroup.setCellStatusByXY(x,y,CellStatus.WAITING)
       } else {
-        this.fenceGroup.fences[x].cells[y].status = CellStatus.FORBIDDEN
+        this.fenceGroup.setCellStatusByXY(x,y,CellStatus.FORBIDDEN)
       }
     })
+  }
+  // 获取确定的 sku,为了避免 sku-pending在获取skuCode时，获取的不是完整的sku路径
+  // 与 sku_list中 sku 的 code码 进行比较，相同则完整
+  getDeterminateSku () {
+    const code = this.skuPending.getSkuCode()
+    const sku = this.fenceGroup.getSku(code)
+    return sku
   }
 
   // 判断该路径是否是合格的潜在路径,true则将状态改成waiting，false则为forbidden
@@ -51,16 +84,9 @@ class Judger {
     return this.pathDict.includes(path)
   }
 
-  /*改变除选中之外其他cell的状态
-  _changeOtherCellStatus (cell, x, y) {
-    const path = this._findPotentialPath(cell, x, y)
-    console.log(path)
-  }*/
-
   // 改变其他cell状态时需要先检测潜在路径，检测潜在路径只需要一行一行的检测即可
   // x表示当前行，y表示当前列
   _findPotentialPath (cell, x, y) {
-
     const joiner = new Joiner("#")
 
     for (let i = 0; i < this.fenceGroup.fences.length; i++) {
@@ -96,14 +122,14 @@ class Judger {
     return spec.key_id + '-' + spec.value_id
   }
 
-  // 改变当前选中的cell状态,并且调用skuPending类中的方法，对潜在路径进行调整
+  // 用户主动点击改变当前选中的cell状态,并且调用skuPending类中的方法，对潜在路径进行调整
   _changeCurrentCellStatus (cell, x, y) {
     if (cell.status === CellStatus.WAITING) {
-      this.fenceGroup.fences[x].cells[y].status = CellStatus.SELECTED
+      this.fenceGroup.setCellStatusByXY(x,y,CellStatus.SELECTED)
       this.skuPending.insertCell(cell, x)
     }
     if (cell.status === CellStatus.SELECTED) {
-      this.fenceGroup.fences[x].cells[y].status = CellStatus.WAITING
+      this.fenceGroup.setCellStatusByXY(x,y,CellStatus.WAITING)
       this.skuPending.removeCell(x)
     }
   }

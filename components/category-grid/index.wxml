@@ -1,7 +1,7 @@
 <view class="container">
     <l-grid row-num="3" l-class="inner-container">
         <!--row-num表示一行显示的图标数量-->
-        <block wx:for="{{grid}}" wx:key="{{index}}">
+        <block wx:for="{{grid}}" wx:key="index">
             <l-grid-item l-class="" key="{{index}}" slot="{{index}}">
                 <view class="grid-item" hover-class="medium-hover" hover-stay-time="300">
                     <image class="grid-img" src="{{item.img}}"></image>

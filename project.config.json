@@ -24,7 +24,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.1",
-	"appid": "wx9dc0de9b32fa1465",
+	"appid": "wx5b42b1d03b3cd7bb",
 	"projectname": "HZ-mooc",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -61,6 +61,13 @@
 					"name": "pages/detail/detail",
 					"pathName": "pages/detail/detail",
 					"query": "pid=2",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/detail/detail",
+					"pathName": "pages/detail/detail",
+					"query": "pid=6",
 					"scene": null
 				}
 			]
