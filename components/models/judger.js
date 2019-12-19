@@ -18,6 +18,18 @@ class Judger {
   isSkuIntact () {
     return this.skuPending.isSkuIntact()
   }
+  // 获取选中的 属性的 值
+  getCurrentValues () {
+    return this.skuPending.getCurrentSpecValue().toString()
+  }
+
+  // 通过从 skuPending 返回的 缺失 的index数组，获取 fences的title
+  getMissingKeys () {
+    const missingKeysIndex = this.skuPending.getMissingSpecKeys()
+    return missingKeysIndex.map(i => {
+      return this.fenceGroup.fences[i].title
+    })
+  }
 
   // 初始实例化skuPending对象
   _initSkuPending () {

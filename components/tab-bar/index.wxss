@@ -1,0 +1,55 @@
+.iconfont {
+    font-family: iconfont !important;
+    color: #157658 !important;
+}
+
+.container {
+    height: 100rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+.icons{
+    box-sizing: border-box;
+    padding-left: 16rpx;
+    padding-right: 22rpx;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    width: 230rpx;
+    height: 100%;
+    color: #999999;
+}
+.icons > view {
+    width: 50%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.icons > view:nth-child(2) {
+    padding-top: 4rpx;
+}
+.icons text {
+    font-size: 20rpx;
+}
+
+.btn-font {
+   color: #ffffff;
+    font-size: 32rpx;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 260rpx;
+    height: 100%;
+}
+.cart {
+    background-color: #333333;
+}
+.buy {
+    background-color: #157658;
+}

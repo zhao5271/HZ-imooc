@@ -1,0 +1,28 @@
+<view class="header">
+    <l-search-bar l-class="input"
+                  maxlenght="9"
+                  bg-color="#f1f1f1"
+                  placeholder="输入商品名称">
+
+    </l-search-bar>
+</view>
+<view class="container">
+    <view>
+        <view class="history-container">
+            <view class="history-title">
+                <view class="slide"></view>
+                <text>历史搜索</text>
+                <view style="flex:1;"></view>
+                <view class="icon">
+                    <l-icon name="delete" color="#999"
+                            size="32"></l-icon>
+                </view>
+            </view>
+            <view class="history-tags">
+                <block wx:for="{{historyTags}}" wx:key="index">
+                    <l-tag name="{{item}}"></l-tag>
+                </block>
+            </view>
+        </view>
+    </view>
+</view>

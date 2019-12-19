@@ -5,6 +5,7 @@ class Cell {
     id
     spec  // spec 表示单个产品的规格，包括规格名和规格值
     status = CellStatus.WAITING
+    skuImg // 可视规格的图片
 
     constructor(spec) {
         this.title = spec.value

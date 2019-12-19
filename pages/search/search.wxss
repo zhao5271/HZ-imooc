@@ -1,0 +1,45 @@
+page {
+    background: #ffffff;
+}
+.header {
+    width: 750rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 14rpx;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.input {
+    border-radius: 0 !important;
+}
+
+.container {
+    padding-top: 70rpx;
+}
+.history-container {
+    display: flex;
+    flex-direction: column;
+}
+.slide {
+    width: 8rpx;
+    height: 46rpx;
+    background-color: #157658;
+    margin-right: 22rpx;
+}
+.history-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.history-tags {
+
+}
+.icon {
+    margin-right: 30rpx;
+}
+.history-title>text {
+    font-size: 28rpx;
+    color: #333333;
+}

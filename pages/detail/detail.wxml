@@ -1,7 +1,47 @@
-<view class="container">
-    <view>
-        <image></image>
+<scroll-view scroll-y  style="height: {{scrollHeight}}rpx">
+    <swiper class="top" autoplay
+            indicator-dots>
+        <block>
+            <swiper-item wx:for="{{spu.spu_img_list}}" wx:key="index">
+                <image mode="aspectFill"
+                       class="top"
+                       src="{{item.img}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <s-sku-description spu="{{spu}}"></s-sku-description>
+    <!--商品详情页，规格的显示-->
+    <view bind:tap="onAddToCart" wx:if="{{!specs.noSpec}}" class="sku-pending">
+        <view class="specs">
+            <text wx:if="{{!specs.skuIntact}}">请选择：</text>
+            <text wx:else>已选：</text>
+            <text wx:if="{{!specs.skuIntact}}">{{specs.missingKeys}}</text>
+            <text wx:else>{{specs.currentValues}}</text>
+        </view>
+        <l-icon name="right" size="24" color="#157658"></l-icon>
     </view>
-    <s-realm spu="{{spu}}"></s-realm>
-<!--    栅栏-->
-</view>
+<!--物流等信息-->
+    <view class="explain">
+        <s-sale-explain texts="{{explain}}"></s-sale-explain>
+    </view>
+<!--商品详情照片-->
+    <view class="detail-img-container">
+        <block wx:for="{{spu.spu_detail_img_list}}" wx:key="index">
+            <image mode="widthFix" class="detail-img" src="{{item.img}}"></image>
+        </block>
+    </view>
+</scroll-view>
+
+<!--showRealm的true or false 控制着 realm组件 是否弹出
+content-align 控制弹出方向-->
+<l-popup show="{{showRealm}}" content-align="bottom">
+    <s-realm bind:specChange="onSpecChange"
+             order-way="{{orderWay}}" spu="{{spu}}"></s-realm>
+</l-popup>
+<!--首页，购物车 等页面的跳转-->
+<s-tab-bar class="tabbar"
+           bind:gohome="onGoHome"
+           bind:gocart="onGoCart"
+           bind:addtocart="onAddToCart"
+           bind:buy="onBuy">
+</s-tab-bar>

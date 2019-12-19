@@ -1,5 +1,13 @@
 {
   "usingComponents": {
-    "s-realm": "../../components/realm/index"
-  }
+    "s-realm": "../../components/realm/index",
+    "s-tab-bar": "../../components/tab-bar/index",
+    "s-sku-description": "../../components/sku-description/index",
+    "s-sale-explain": "../../components/sale-explain/index"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "商品详情",
+  "navigationBarTextStyle": "black",
+  "onReachBottomDistance": 50
 }

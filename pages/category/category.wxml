@@ -1,0 +1,46 @@
+<view class="container">
+    <view class="search-container">
+        <!-- icon 引入字体图标，l-icon-class 引入图表样式，l-class修改按钮的样式，
+        bind:lintap则是触发 linUI 组件的按钮点击事件 icon-color 表示按钮内字体图标的颜色
+         shape 表示按钮的形状：方块\圆形-->
+        <l-button width="710"
+                  height="60"
+                  icon="research"
+                  icon-size="24"
+                  icon-color="#C4C9D2"
+                  l-class="search-btn"
+                  bind:lintap="onGotoSearch"
+                  shape="square">
+            搜索商品
+        </l-button>
+    </view>
+    <view class="main">
+        <!-- even表示均分，这个属性会和item-height冲突，类似flex
+        placement表示选项卡所在的位置，
+        scrollable则是当选择选项时，选项卡会自动滚动到中间
+        l-line-class 修改选项卡选中时竖线的样式,
+        l-active-class 表示选项卡选中时的样式,
+        l-inactive-class 表示没有选中时的样式
+        item-height 则是控制内部选项卡的高度
+        bind:linchange 用来绑定 选项卡切换时 触发的事件
+        active-key 表示默认选中的 segment-item-->
+        <l-segment placement="left"
+                   active-key="{{defaultRootId}}"
+                   height="{{segHeight}}"
+                   even="{{false}}"
+                   width="160"
+                   scrollable
+                   l-line-class="l-seg-line"
+                   l-active-class="segment-item-active"
+                   l-inactive-class="segment-item"
+                   bind:linchange="onSegChange"
+                   item-height="90">
+            <block wx:for="{{roots}}" wx:key="key">
+                <l-segment-item key="{{item.id}}" tab="{{item.name}}"></l-segment-item>
+            </block>
+        </l-segment>
+        <view class="right">
+            <s-sub-category bind:itemtap="onJumpToSpuList" categories="{{currentSubs}}" bannerImg="{{currentBannerImg}}"></s-sub-category>
+        </view>
+    </view>
+</view>

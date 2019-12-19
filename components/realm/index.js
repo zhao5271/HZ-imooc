@@ -2,6 +2,7 @@ import { FenceGroup } from '../models/fence-group'
 import { Judger } from '../models/judger'
 import { Spu } from '../../models/spu'
 import { Cell } from '../models/cell'
+import { Cart } from '../models/cart'
 
 Component({
   /**
@@ -9,6 +10,7 @@ Component({
    */
   properties: {
     spu: Object,
+    orderWay: String
   },
   data: {
     judger: Object,
@@ -18,7 +20,12 @@ Component({
     discountPrice: Number,
     stock: Number, // 表示库存容量
     noSpec: Boolean,  // 表示是否有 规格值，若无则只有一个sku值
-    skuIntack: Boolean // 是否有完整的 sku 规格值，有了完整sku才会计算价格等信息
+    skuIntack: Boolean, // 是否有完整的 sku 规格值，有了完整sku才会计算价格等信息
+    currentValues: Array, // 渲染选择完毕后的 属性值
+    missingKeys: Array, // 渲染 未选择 的 属性名
+    outStock: Boolean,  // 判断是否缺货
+    currentSkuCount: Cart.SKU_MIN_COUNT, // 购买商品的数量
+    noSpecStock: Number // 标明 无规格 spu 商品的 库存
   },
 
 // 判断商品是否为无规格，这样可以免去 矩阵转置的操作
@@ -32,15 +39,19 @@ Component({
       } else {
         this.processHasSpec(spu)
       }
+      this.triggerSpecEvent()
     }
   },
   methods: {
     // spu产品无规格值
     processNoSpec (spu) {
-      this.setData({
+      /*this.setData({
         noSpec:true
-      })
+      })*/
+      this.data.noSpec = true
+      this.data.noSpecStock = spu.sku_list[0].stock
       this.bindSkuData(spu.sku_list[0])
+      this.setStockStatus(this.data.noSpecStock)
     },
     // spu产品有规格值
     processHasSpec (spu) {
@@ -51,12 +62,32 @@ Component({
       const defaultSku = fenceGroup.getDefaultSku()
       if (defaultSku) {
         this.bindSkuData(defaultSku)
+        // 对默认的 sku 也进行判断，防止购买数量超过 库存量
+        this.setStockStatus(defaultSku.stock)
       } else {
         this.bindSpuData()
       }
       this.bindTipData()
       this.bindFenceGroupData(fenceGroup)
     },
+    // 将realm组件中的数据传递到父组件中
+    triggerSpecEvent () {
+      const noSpec = Spu.isNoSpec(this.properties.spu)
+      // 这里的判断是为了避免，无规格产品下没有 judger 而引发的报错
+      if (noSpec) {
+        this.triggerEvent('specChange', {
+          noSpec
+        })
+      } else {
+        this.triggerEvent('specChange',{
+          noSpec,
+          skuIntact: this.data.judger.isSkuIntact(),
+          currentValues: this.data.judger.getCurrentValues(),
+          missingKeys: this.data.judger.getMissingKeys()
+        })
+      }
+    },
+
     // 绑定初始化数据
     bindFenceGroupData (fenceGroup) {
       this.setData({
@@ -84,8 +115,31 @@ Component({
     },
     bindTipData () {
       this.setData({
-        skuIntact: this.data.judger.isSkuIntact()
+        skuIntact: this.data.judger.isSkuIntact(),
+        currentValues: this.data.judger.getCurrentValues(),
+        missingKeys: this.data.judger.getMissingKeys()
       })
+    },
+    //  判断购买数量是否超过库存数量, 超过则缺货 返回false
+    isOutOfStock (stock,currentCount) {
+      return stock < currentCount
+    },
+    setStockStatus (stock) {
+      this.setData({
+        outStock: this.isOutOfStock(stock, this.data.currentSkuCount)
+      })
+    },
+    // count 组件的加减按钮，点击时触发，获取其 数量
+    onSelectCount (event) {
+      this.data.currentSkuCount = event.detail.count
+      // 先判断是否为完整sku，然后增加数量的时候和 库存量进行比较，更新是否缺货
+      // 由于 无规则 产品下面没有 judger对象，所以需要多层判断
+      if(this.data.noSpec){
+        this.setStockStatus(this.data.noSpecStock)
+      } else if(this.data.judger.isSkuIntact()){
+        const sku = this.data.judger.getDeterminateSku()
+        this.setStockStatus(sku.stock)
+      }
     },
 
     // cell中包含属性值，status；x表示行号，y表示列号
@@ -109,10 +163,12 @@ Component({
       if (skuIntact) {
         const currentSku = judger.getDeterminateSku()
         this.bindSkuData(currentSku)
+        this.setStockStatus(currentSku.stock)
       }
       // 改变 商品 请选择和已选择的状态
       this.bindTipData()
       this.bindFenceGroupData(judger.fenceGroup)
+      this.triggerSpecEvent()
     }
   }
 })

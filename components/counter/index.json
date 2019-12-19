@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "l-counter": "/miniprogram_npm/lin-ui/counter/index"
+  }
+}

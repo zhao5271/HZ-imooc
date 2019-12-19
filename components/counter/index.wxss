@@ -1,0 +1,17 @@
+.container {
+    border: 3rpx solid #157658 !important;
+    height: 48rpx !important;
+}
+.all-background {
+    background-color: transparent !important;
+}
+/*由于 小程序中的 输入框 存在最小高度，会出现 输入框 不能垂直居中的现象
+所以我们需要将 输入框的 line-height, min-height, max-height 与高度保持一致*/
+.input-size {
+    line-height: 48rpx !important;
+    min-height: 48rpx !important;
+    max-height: 48rpx !important;
+}
+.font-color {
+    color: #157658 !important;
+}

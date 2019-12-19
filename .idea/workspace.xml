@@ -2,25 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de05056a-8c16-4e84-adda-5e0f5f135093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/counter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/counter/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/counter/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/counter/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/models/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sale-explain/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sale-explain/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sale-explain/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sale-explain/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sku-description/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sku-description/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sku-description/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sku-description/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sub-category/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sub-category/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sub-category/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sub-category/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tab-bar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tab-bar/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tab-bar/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tab-bar/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/cart@dis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/category@dis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/home@dis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tabbar/my@dis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sale-explain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart/cart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart/cart.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart/cart.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/category/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/category/category.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/category/category.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/category/category.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my/my.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/spu-list/spu-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/spu-list/spu-list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/spu-list/spu-list.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/spu-list/spu-list.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/system.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/category-grid/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/category-grid/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cell/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/cell/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cell/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/cell/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/models/cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/cell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/models/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/models/judger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/judger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/models/sku-pending.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/sku-pending.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/grid/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram_npm/lin-ui/water-flow/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/water-flow/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/spu-paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/spu-paging.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/spu.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/spu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/enum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram_npm/lin-ui/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram_npm/lin-ui/utils/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +97,24 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Us7ckR1mvd19m2GeAc5yHjPhLY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hanFu" />
+    <property name="last_opened_file_path" value="D:/初八信珩工作文件/商家联盟公众号项目/code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -94,7 +152,23 @@
       <workItem from="1576133536723" duration="1584000" />
       <workItem from="1576135135576" duration="14385000" />
       <workItem from="1576166001999" duration="29000" />
-      <workItem from="1576205380529" duration="6515000" />
+      <workItem from="1576205380529" duration="6795000" />
+      <workItem from="1576242333548" duration="5180000" />
+      <workItem from="1576289290408" duration="3059000" />
+      <workItem from="1576301656657" duration="15346000" />
+      <workItem from="1576398558248" duration="8944000" />
+      <workItem from="1576457486551" duration="2238000" />
+      <workItem from="1576485121215" duration="5055000" />
+      <workItem from="1576501392744" duration="3450000" />
+      <workItem from="1576544305885" duration="309000" />
+      <workItem from="1576544632620" duration="10333000" />
+      <workItem from="1576569591270" duration="9000" />
+      <workItem from="1576570595432" duration="3058000" />
+      <workItem from="1576587472925" duration="3086000" />
+      <workItem from="1576632216361" duration="16000" />
+      <workItem from="1576671830857" duration="5113000" />
+      <workItem from="1576718070803" duration="18252000" />
+      <workItem from="1576757013602" duration="1761000" />
     </task>
     <task id="LOCAL-00001" summary="定期更新">
       <created>1575088367621</created>
@@ -131,34 +205,62 @@
       <option name="project" value="LOCAL" />
       <updated>1575554253003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sku日常更新">
+      <created>1576220126590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576220126590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="定期更新" />
     <MESSAGE value="sku核心算法完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="sku核心算法完成" />
+    <MESSAGE value="sku日常更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="sku日常更新" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="681" y="217" key="FileChooserDialogImpl" timestamp="1576166029250">
+    <state x="160" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576544364487">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="681" y="217" key="FileChooserDialogImpl/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576166029250" />
-    <state x="376" y="38" key="SettingsEditor" timestamp="1576137436919">
+    <state x="160" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576544364487" />
+    <state x="432" y="0" key="CommitChangelistDialog2" timestamp="1576220120942">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="376" y="38" key="SettingsEditor/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576137436919" />
+    <state x="432" y="0" key="CommitChangelistDialog2/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576220120942" />
+    <state x="681" y="247" key="FileChooserDialogImpl" timestamp="1576632230044">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="681" y="217" key="FileChooserDialogImpl/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576550328006" />
+    <state x="681" y="247" key="FileChooserDialogImpl/0.30.1920.1050/-1920.-90.1536.834@0.30.1920.1050" timestamp="1576632230044" />
+    <state x="90" y="80" width="1641" height="895" key="SettingsEditor" timestamp="1576672733220">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="376" y="38" key="SettingsEditor/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576544614343" />
+    <state x="90" y="80" width="1641" height="895" key="SettingsEditor/0.30.1920.1050/-1920.-90.1536.834@0.30.1920.1050" timestamp="1576672733220" />
+    <state x="452" y="182" key="Vcs.Push.Dialog.v2" timestamp="1576220130350">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576220130350" />
     <state x="697" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576134067463">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="697" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576134067463" />
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1576217616403">
+    <state x="532" y="239" width="840" height="1034" key="run.anything.popup" timestamp="1576410620750">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576217616403" />
+    <state x="532" y="239" width="840" height="1034" key="run.anything.popup/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576410620750" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1576738245899">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050/-1920.-120.1536.834@0.0.1920.1050" timestamp="1576503183245" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.30.1920.1050/-1920.-90.1536.834@0.30.1920.1050" timestamp="1576738245899" />
   </component>
   <component name="masterDetails">
     <states>

@@ -21,10 +21,22 @@ class FenceGroup {
         AT.forEach(r => {
             let fence = new Fence(r)
             fence.init()
+            if (this._hasSketchFence() && this._isSketchFence(fence.id)) {
+                fence.setFenceSketch(this.skuList)
+            }
             fences.push(fence)
         });
         this.fences = fences
     }
+    // 判断这个 sku 下是否有 可视规格属性
+    _hasSketchFence () {
+        return this.spu.sketch_spec_id ? true : false
+    }
+    // 判断这一行属性是否是可视规格
+    _isSketchFence (fenceId) {
+        return this.spu.sketch_spec_id === fenceId ? true : false
+    }
+
     // 遍历每一个cell属性，然后将每一个cell和行号列号通过回调函数返回
     eachCell(cb) {
         for (let i = 0; i < this.fences.length; i++) {

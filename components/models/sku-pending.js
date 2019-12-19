@@ -22,6 +22,23 @@ class SkuPending {
       this.insertCell(cell,i)
     }
   }
+  // 查找已经选择的spec
+  getCurrentSpecValue () {
+    const values = this.pending.map(cell => {
+      return cell ? cell.spec.value : null
+    })
+    return values
+  }
+  // 查找缺失的 spec 在 pending 中的序号
+  getMissingSpecKeys () {
+    const keysIndex = []
+    for (let i = 0; i < this.size; i++) {
+      if (!this.pending[i]) {
+        keysIndex.push(i)
+      }
+    }
+    return keysIndex
+  }
   // 用户每次重新选择完整的 sku路径后，
   // 重新计算 skuCode，使用连接符，返回一个新的 字符串 code
   getSkuCode () {

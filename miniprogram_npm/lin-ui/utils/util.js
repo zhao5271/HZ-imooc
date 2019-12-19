@@ -36,9 +36,9 @@ const combination = function (arr, size) {
 
 const px2rpx = function (pxNumber) {
     const {screenWidth} = wx.getSystemInfoSync();
-    const rpxNumber = (750 / screenWidth) * pxNumber;
-    return rpxNumber;
+    return (750 / screenWidth) * pxNumber;
 };
+
 
 export {
     promisic,

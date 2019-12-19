@@ -1,3 +1,7 @@
+.top {
+    width: 100%;
+}
+
 .container{
     height: 60rpx;
     border: 2rpx solid #333333;
@@ -29,5 +33,12 @@
 
 .s-inner {
     background-color: #157658;
+}
+
+.sku-img {
+    display: flex;
+    width: 44rpx;
+    height: 44rpx;
+    margin-right: 10rpx;
 }
 
